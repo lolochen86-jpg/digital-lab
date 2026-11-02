@@ -1,66 +1,32 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-02",
+  "updatedAt": "2026-11-03",
   "projects": [
     {
-      "id": "courtside-data",
-      "title": "StatsHub 賽事分析",
+      "id": "sports-lab",
+      "title": "Sports Lab 運動數據工作台",
       "category": "sports",
-      "summary": "探索 MLB 與 NBA 的賽事、球員資料，以及保存的賽前分析與比賽紀錄。",
-      "description": "整合 MLB 與 NBA 運動資料的分析網站，提供賽事、球隊、球員及保存紀錄的瀏覽入口。現有 NBA 介面另含傷病資料與分析結果。模型輸出仍屬研究用途，資料覆蓋與更新時間以各頁面標示為準，不構成投注建議。",
+      "summary": "NBA 球隊現況、球員資料、傷病資訊及研究預測，集中在一個入口。",
+      "description": "整合 NBA 球隊、球員與賽程資料，提供雙語查詢、資料來源狀態，以及比分基準與傷病情境研究預測。MLB 資料功能仍在擴充；模型未經獨立校準，不構成投注建議。",
       "stage": "active",
       "tags": [
-        "MLB",
         "NBA",
-        "賽事分析",
+        "球員資料",
+        "研究預測",
         "運動數據"
       ],
       "featured": true,
       "hidden": false,
       "order": 1,
       "visual": "data",
-      "url": "https://courtside-private-20261007.vercel.app",
+      "url": "https://lolochen86-jpg.github.io/sports-lab/",
       "linkVerification": {
-        "url": "https://courtside-private-20261007.vercel.app",
-        "checkedAt": "2026-11-02T18:34:32.7793434+08:00",
+        "url": "https://lolochen86-jpg.github.io/sports-lab/",
+        "checkedAt": "2026-11-03T06:47:00+08:00",
         "status": "verified",
-        "evidence": "已完成實際網址檢查；驗證日期不代表服務永久可用。"
-      }
-    },
-    {
-      "id": "hoopslab-nba",
-      "title": "HoopsLab NBA 預測與新人追蹤",
-      "category": "sports",
-      "summary": "從賽前預測、球員輪替到新人排行，以資料探索 NBA 的每個比賽日。",
-      "description": "聚焦 NBA 的研究網站，提供賽前比分與勝率估計、傷病及預期輪替、新人排行、預測存檔與回測頁面，並支援中英文切換。數據為模型估計，實際資料日期與更新狀態以網站標示為準，僅供研究與討論，不構成投注建議。\n2026-11-02 檢查時，站內資料最後更新為 2026-11-01 01:30（台灣時間）；網站可瀏覽不代表今日預測已更新。",
-      "stage": "active",
-      "tags": [
-        "NBA",
-        "賽前預測",
-        "新人追蹤",
-        "中英雙語"
-      ],
-      "featured": true,
-      "hidden": false,
-      "order": 2,
-      "visual": "court",
-      "url": "https://nba-prediction-00.pages.dev/",
-      "linkVerification": {
-        "url": "https://nba-prediction-00.pages.dev/",
-        "checkedAt": "2026-11-02T18:35:47.0047868+08:00",
-        "status": "verified",
-        "evidence": "已完成實際網址檢查；驗證日期不代表服務永久可用。"
-      }
+        "evidence": "已檢查公開 Sports Lab 可開啟；模型及資料時效請以網站標示為準。"
+      },
+      "candidateUrl": null
     }
-  ],
-  "extensions": {
-    "ads": {
-      "enabled": false,
-      "placements": []
-    },
-    "collaborators": {
-      "enabled": false,
-      "items": []
-    }
-  }
+  ]
 }
